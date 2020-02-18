@@ -1,0 +1,22 @@
+node --> node -v
+npm  --> npm -v
+
+command -->
+npx create-react-app project-name
+
+toolchains --> templates
+1. CRA  
+2. GatsBy
+3. Next JS
+
+
+---------
+component  --  pieces of code.
+
+props  -- properties
+
+
+task
+1.Button props
+2. Input
+3. Image
