@@ -20,3 +20,58 @@ task
 1.Button props
 2. Input
 3. Image
+
+
+
+
+
+
+
+---
+ - card component with prop
+ - children prop
+
+
+
+ App.js
+
+Cards  --
+  UI + logic
+  
++ Cards --
+   - Card.conatiner.js  --->  UI   (class components)
+   - Card.component.js  --->   Logic (function / class) (clicks...)
+   - index.js           ---> 
+   
+   
++  folder
+     - component_file.js
+	 - container_file.js
+	 - index.js             --> (container will be imported)
+   
+   
+JSX -limitations
+block level component
+
+
+document.getElementById('id_name').
+h1  ---  update
+
+Virtual DOM
+JSX 
+component render through props --- reuse
+
+class vs functional components
+
+state  -  functional components (X)   
+class  -  
+
+
+components --
+stateless -   stateful 
+
+stateless  ---> dumb components
+stateful   ---> smart components (logic)
+
+
+state , life cycle

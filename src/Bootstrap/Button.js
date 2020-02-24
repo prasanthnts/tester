@@ -10,7 +10,13 @@ import Button from 'react-bootstrap/Button';
 // }
 
 const NewButton = (props) => {
-    return  (<Button variant={props.variant}>{props.ButtonName}</Button>)
+    return  (
+<div>
+    <Button variant={props.variant}>{props.ButtonName}</Button>
+{props.children}
+
+    </div>
+    )
 }
 
 export default NewButton

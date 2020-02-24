@@ -4,12 +4,15 @@ class Condition extends React.Component{
     render(){
 
         const age = 18;
+        var element = '';
 
          if(age >= 18){
-             return <h1>Eligible to vote!</h1>
+           element = <h1>Eligible to vote!</h1>
          }else{
-             return <h1>not eligible!</h1>
+            element =  <h1>not eligible!</h1>
          }
+
+         return element
 
     }
 }

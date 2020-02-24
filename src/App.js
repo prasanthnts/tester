@@ -1,30 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from './Header/Header'
-import Condition from './Conditions'
-import NewButton from './Bootstrap/Button'
+
+import MyCard from './Cards'
+import Clock from './Clock/Clock'
+import Header from './Header'
+import Counter from './Counter'
 
 class App extends React.Component{
+
   render(){
+
+  
     return (
     <div className="container">
-       <div className="row">
-         <div className='col-md-12'>
-
-              <NewButton ButtonName = 'Primary'/>
-              <NewButton ButtonName = 'Danger' variant='danger'/>
-              <NewButton ButtonName = 'Success' variant='success'/>
-              <NewButton ButtonName = 'Info' variant='info'/>
-              <NewButton ButtonName = 'Dark' variant='dark'/>
-
-
-
-         </div>
-      </div>
+      <Header/>
+      {/* <MyCard/>
+      <Clock/> */}
+      <Counter/>
     </div>
     )
-  }
+}
 }
 
 
